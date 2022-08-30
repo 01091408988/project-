@@ -1,0 +1,74 @@
+body {
+  background-color: #6b8e23;
+}
+#task-input {
+  width: 350px;
+  height: 35px;
+  border: solid 2px;
+  border-radius: 16px;
+  border-color: rgba(0, 0, 0, 0.363);
+  background-color: whitesmoke;
+  padding-left: 10px;
+  position: relative;
+  margin-left: 5%;
+}
+
+#btn {
+  width: 80px;
+  height: 40px;
+  color: black;
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 35px;
+  font-weight: bold;
+}
+
+#btn:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+
+.task {
+  display: inline-block;
+  border: 2px solid;
+  padding: 8px;
+  border-radius: 25px;
+  margin: 8px;
+  position: relative;
+  width: 300px;
+  border-color: white;
+  text-align: center;
+}
+
+.delete,
+.done {
+  background-color: whitesmoke;
+  border-radius: 12px;
+  display: inline;
+  border: none;
+  padding: 8px;
+  margin-left: 10px;
+  margin-right: 4px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+.delete:hover,
+.done:hover {
+  background-color: purple;
+  color: white;
+}
+
+.TaskDone {
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+#container {
+  width: 500px;
+  right: 30%;
+  top: 30% ;
+  position: fixed;
+}
